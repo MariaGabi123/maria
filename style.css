@@ -8,10 +8,8 @@
 body{
     background-color: var(--cor-de-fundo)
     color: var(--branco-principal);
- 
-margin: 0;
-    padding: 0;
-}
+} 
+
 
 
 .principal {
@@ -36,9 +34,5 @@ margin: 0;
 }
 h1 {
     font-size: 50px;
-}
-
-.botao_secundario {
-    background-color: transparent;
-    border: 2px solid var(--branco-principal)
+    text-align: center;
 }
