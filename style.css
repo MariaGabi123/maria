@@ -16,12 +16,11 @@ body{
     background-image: url("download.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 50px;
 }
 
 .container {
     height: 100vh;
-    display: grid
+    display: grid;
     grid-template-columns: 50% 50%;
 }
 
@@ -31,8 +30,20 @@ body{
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
 }
-h1 {
-    font-size: 50px;
-    text-align: center;
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal)
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.container__titulo {
+    font-size: 28px;
+    font-weight: 700;
 }
