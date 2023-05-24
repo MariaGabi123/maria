@@ -19,6 +19,7 @@ body{
     background-image: url("download.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
+    font-size: 50px;
 }
 
 .container {
@@ -35,7 +36,7 @@ body{
     display: block;
 }
 h1 {
-    font-size: 20px;
+    font-size: 50px;
 }
 
 .botao_secundario {
