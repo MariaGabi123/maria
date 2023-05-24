@@ -19,7 +19,7 @@ body{
     background-image: url("download.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
-    font-size: 50px;
+    padding: 50px;
 }
 
 .container {
